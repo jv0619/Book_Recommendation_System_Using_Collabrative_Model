@@ -47,7 +47,7 @@ The Book Recommendation System is a web application that suggests books to users
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/book-recommendation-system.git
+   git clone https://github.com/jv0619/Book_Recommendation_System_Using_Collabrative_Model.git
    cd book-recommendation-system
    ```
 2. **Create a Virtual Environment**
