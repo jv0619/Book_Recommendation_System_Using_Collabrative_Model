@@ -10,22 +10,22 @@ The Book Recommendation System is a web application that suggests books to users
 
 ## Screenshots
 ### Home Page
-![Home Page](screenshots/home_page.jpg)
+![Home Page](screenshots/homepage.png)
 
 ### Top 50 Picks
-![Top 50 Picks](screenshots/top_50_picks.jpg)
+![Top 50 Picks](screenshots/top50.png)
 
 ### Recommendations
-![Recommendations](screenshots/recommendations.jpg)
+![Recommendations](screenshots/recommendations.png)
 
 ### Searched Results
-![Results](screenshots/results.jpg)
+![Results](screenshots/results.png)
 
 ### About Project
-![About Project](screenshots/about.jpg)
+![About Project](screenshots/about.png)
 
 ### Developers
-![Developers](screenshots/developers.jpg)
+![Developers](screenshots/developers.png)
 
 
 ## Technologies Used
