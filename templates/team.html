@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="static/assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="static/assets/css/swiper-bundle.min.css">
+
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="static/assets/css/styles.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      crossorigin="anonymous">
+
+      <title>Responsive book website - Bedimcode</title>
+   </head>
+   <body class="body">
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo" style="text-decoration: none;">
+               <i class="ri-book-3-line"></i>
+               Book Recommendation System
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="/" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/#top" class="nav__link">
+                        <i class="ri-award-line"></i> 
+                        <span>Top 50</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/recommend" class="nav__link">
+                        <i class="ri-book-marked-line"></i>
+                        <span>Recommendation</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/info" class="nav__link">
+                        <i class="ri-information-2-line"></i>
+                        <span>About Project</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/team" class="nav__link" >
+                        <i class="ri-group-3-line"></i>
+                        <span>Team</span>
+                     </a>
+                  </li>
+                  
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <i class="ri-moon-line" class='dark-theme' id="theme-button"></i>
+            </div>
+         </nav>
+         
+      </header>
+
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="mentor">
+            <div class="mentor__container container grid">
+               <center>
+               <div class="home__data mentor__data">
+                  
+                     <div class="a mentor__card mentor">
+                        <img src="/static/assets/img/sampath.jpeg" alt="" class="mentor__img">
+                        <div>
+                           <h2 class="mentor__title">Mr. Buthapati Sampath Babu </h2>
+                           <div class="mentor__desc">
+                              <p class="mentor__author">Project Guide<br>
+                                 Helped us to gain valuable insights through this project
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div> 
+                </div>
+               </center>
+            </div>
+        </section>
+
+        <section class="team section" id="mentor">
+         <h2 class="section__title">Teamates</h2>
+         <div class="team__container container">
+            <div class="team__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="team__card swiper-slide">
+                     <img src="{{ url_for('static', filename='/assets/img/akhil.jpg') }}" alt="" class="team__img">
+                     <h2 class="team__title">
+                        K Akhil Kumar Reddy
+                     </h2>
+                     <p class="team__desc">
+                        O180449<br>
+                        Frontend Developer
+                     </p>
+                  </article>
+   
+                  <article class="team__card swiper-slide">
+                     <img src="{{ url_for('static', filename='/assets/img/venkatesh.jpg') }}" alt="" class="team__img">
+                     <h2 class="team__title">
+                        Venkatesh Yarram
+                     </h2>
+                     <p class="team__desc">
+                        O180428<br>
+                        Team Lead & Developer
+                     </p>
+                  </article>
+   
+                  <article class="team__card swiper-slide">
+                     <img src="{{ url_for('static', filename='/assets/img/navya.jpg') }}" alt="" class="team__img">
+                     <h2 class="team__title">
+                        Kola Navya
+                     </h2>
+                     <p class="team__desc">
+                        O180478<br>
+                        Developer & Documentarian
+                     </p>
+                  </article>
+   
+                  <article class="team__card swiper-slide">
+                     <img src="{{ url_for('static', filename='/assets/img/neeraja.jpeg') }}" alt="" class="team__img">
+                     <h2 class="team__title">
+                        Peddireddy Neeraja
+                     </h2>
+                     <p class="team__desc">
+                        O180489<br>
+                        Developer & Documentarian
+                     </p>
+                  </article>
+               </div>
+               
+            </div>
+         </div>
+        </section>
+        
+        
+
+        
+
+      
+      <!--========== SCROLL UP ==========-->
+      <!-- <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a> -->
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="static/assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="static/assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="static/assets/js/main.js"></script>
+   </body>
+</html>
