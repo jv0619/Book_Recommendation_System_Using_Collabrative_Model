@@ -24,8 +24,10 @@ The Book Recommendation System is a web application that suggests books to users
 ### About Project
 ![About Project](screenshots/about.png)
 
-### Developers
-![Developers](screenshots/developers.png)
+### Developer
+Front-End: Dola Jhansi Peraka @dolajhansi900
+Back-End: Venkatesh Yarram and Akhil Kumar Reddy Kamireddy
+
 
 
 ## Technologies Used
